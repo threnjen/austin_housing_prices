@@ -48,62 +48,26 @@ We use the OSEMN for Data Science to organize the project.
 
 # Table of Contents
 
-#### Austin-Keras.ipynb.ipynb](https://github.com/threnjen/austin_housing_prices/blob/main/Austin-Keras.ipynb)
+#### [Austin-Keras.ipynb.ipynb](https://github.com/threnjen/austin_housing_prices/blob/main/Austin-Keras.ipynb)
 
 * **Project Overview**
-    * Business Objective
-    * Package Imports
-    * Notebook Functions
-        * Cleaning Functions
-        * Text Processing Functions
-        * Visualization Functions
-        * Preprocessing Functions
-        * Tuning Functions
-        * Scoring Functions
-        * Stacking Functions
-        * Neural Net Functions
-
 
 * **Obtaining Our Data**
 
 * **Cleaning Our Data**
 
 * **Visualizing Our Data**
-    * Study Target Variable
-    * Correlations/Multicollinearity
-    * Visualizing Categoricals and Continous
-    * Looking for Polynomial Relationships
 
 * **Standard Models**
-    * Data Preprocessing
-    * Spot Check Models
-    * Feature Selectors
-    * NLP with TF-IDF
-    * Tuned Baseline Predictions
 
 * **Neural Networks**
-    * Tabular Features
-    * Pretrained NLP Embeddings
-        * NLP Feature Extraction
-    * Images
-        * With Data Augmentation
-        * Without Augmentation
-        * Image Feature Extraction
-    * Multi-Input NN
 
 * **Ensembling**
-    * Feature extracted predictions
-    * Model Stacking Selector
-    * Final Ensemble and Predictions
     
 * **Analysis**
-    * Analysis
-    * Future Work
 
 * **APPENDIX**
-    * Neural Network Training and Tuning
-    * Standard Model Tuning
-    * References
+
 
 ## Analysis
 
