@@ -73,7 +73,7 @@ We use the OSEMN for Data Science to organize the project.
 
 > Our final model utilizes a wide combination of continuous variables, one-hot-encoded categoricals, extracted image features, and extracted word embeddings to produce an ensembled model with a mean absolute error of 58.45k, and a root mean squared error of 96k. This MAE is a 4.77% improvement over the baseline tabular-only predictions using the best tuned model. The categorical features were processed with a combination of target encoding and one-hot encoding. The text description features were vector embedded using the pre-trained Stanford GloVe 300d word embeddings NLP model. The images were processed using the pre-trained Google InceptionV3 image classification model. The final model was produced using model ensembling which included a mixture of neural networks, standard models, and image/text extracted features from the aforementioned pre-trained GloVe and InceptionV3 models.
 
-![image]('images/stack_map.png')
+![image](images/stack_map.png)
 
 ##### What are the primary factors influencing housing prices in the Austin metro area?
 
