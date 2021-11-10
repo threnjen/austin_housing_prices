@@ -102,6 +102,7 @@ We use the OSEMN for Data Science to organize the project.
 
 > In this image, words are sized according to their importance for the model, showing us quite clearly the descriptors that matter. They should be used in the description, when accurate.
 ![important words](images/listing_words.png)
+> This visual above showing only single words of importance
 
 > It is important to note here that the text feature importances don't necessarily imply causality. Sprinkler Systems, for example, may simply be a feature common to more expensive houses, and therefore be considered important by the model while not necessarily contributing an increase in price on their own. Where we can particularly leverage this information is for informing our photographs.
 
