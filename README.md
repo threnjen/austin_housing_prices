@@ -82,7 +82,7 @@ We use the OSEMN for Data Science to organize the project.
 ![price per square foot](images/price_sf.png)
 
 
-> And as they say, location is everything, and it is the primary influencing factor for a home price in the Austin metro area. This scatter of latitude and longitude for the greater Austin area, colored by price, shows quite clearly how prices reduce as the location moves further from the city center into the suburbs.
+> As they say, location is everything, and it is the primary influencing factor for a home price in the Austin metro area. This scatter of latitude and longitude for the greater Austin area, colored by price, shows quite clearly how prices reduce as the location moves further from the city center into the suburbs.
 ![geographic scatter](images/geo_scatter.png)
 
 > Number of bathrooms, school rating, and lot size all contributed a large amount as well.
@@ -90,15 +90,15 @@ We use the OSEMN for Data Science to organize the project.
 
 ##### What home elements from the listing descriptions are important to the price?
 
-> To determine features that we should highlight in the listings, we determine features that have some relevance to the home price. If they DO exist, these are features that we should definitely mention in our listing descriptions.
+> To determine features that we should highlight in the listings, we examine features that have relevance to the home price. If they DO exist, these features should be mentioned in our listing descriptions.
 
-> **Home features**: sprinkler system, hardwood, laminate, main (master on the main?), tankless water heater, stainless steel appliances, office, built ins, breakfast bar, washer/dryer, garden tub, wine cellar, gourmet kitchen, original, fire pit, marble
+> **Home features**: sprinkler system, pool, hardwood, laminate, main (master on the main?), tankless water heater, stainless steel appliances, office, built ins, breakfast bar, washer/dryer, garden tub, wine cellar, gourmet kitchen, fire pit, marble
 
 > **Location elements**: areas such as Barton and Zilker, easy access, conveniently located, restaurant, airport, nature, hiking, bike trail, walkable, lake
 
-> **Exterior words**: country, corner lot, view, south (facings), pool
+> **Exterior words**: country, corner lot, view, south (facings)
 
-> **Descriptive elements**: natural light (abundance, ton), open concept, move in ready, community, fresh paint, luxury, brand new, condo
+> **Descriptive elements**: natural light (abundance, ton), open concept, move in ready, community, fresh paint, luxury, brand new, original, condo
 
 > In this image, words are sized according to their importance for the model, showing us quite clearly the descriptors that matter. They should be used in the description, when accurate.
 ![important words](images/listing_words.png)
