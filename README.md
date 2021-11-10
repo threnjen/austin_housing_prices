@@ -77,13 +77,14 @@ We use the OSEMN for Data Science to organize the project.
 
 ##### What are the primary factors influencing housing prices in the Austin metro area?
 
-> Square footage is, unsurprisingly, a key player in house pricing. And as they say, location is everything, and it is the primary influencing factor for a home price in the Austin metro area. Number of bathrooms, school rating, and lot size all contributed a large amount as well.
-
-![geographic scatter](images/geo_scatter.png)
-Scatter of Sales for Austin Geographic area
-
+> Square footage is, unsurprisingly, a key player in house pricing. House prices rise in a near-linear fashion with square footage - at least for the bottom 75% of zip codes. There is a key point where the zip code causes the price per square foot to rise sharply. The following image demonstrates this in a scatter of price per square feet, colored by zip code median rank, where the zip codes were ranked by price. The darkest zip code medians exhibit the strongest breakaway in price as square footage rises, while the lighter yellow, orange, red and even purple ranks are relatively linear.
 ![price per square foot](images/price_sf.png)
-Price per Square Feet of Living Space
+
+
+> And as they say, location is everything, and it is the primary influencing factor for a home price in the Austin metro area. This scatter of latitude and longitude for the greater Austin area, colored by price, shows quite clearly how prices reduce as the location moves further from the city center into the suburbs.
+![geographic scatter](images/geo_scatter.png)
+
+> Number of bathrooms, school rating, and lot size all contributed a large amount as well.
 
 
 ##### What home elements from the listing descriptions are important to the price?
@@ -98,6 +99,7 @@ Price per Square Feet of Living Space
 
 > **Descriptive elements**: natural light (abundance, ton), open concept, move in ready, community, fresh paint, luxury, brand new, condo
 
+> In this image, words are sized according to their importance for the model, showing us quite clearly the descriptors that matter. They should be used in the description, when accurate.
 ![important words](images/listing_words.png)
 
 ##### Do housing images contribute to predictive power?
