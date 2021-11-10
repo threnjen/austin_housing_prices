@@ -70,7 +70,8 @@ We use the OSEMN for Data Science to organize the project.
 
 ## Analysis
 
-> Our final model utilizes a wide combination of continuous variables, one-hot-encoded categoricals, extracted image features, and extracted word embeddings to produce an ensembled model with a mean absolute error of 56.4k and a root mean squared error of 94.8k. This MAE is a huge 8.59% improvement over the 61.7k MAE baseline prediction using a single best tuned model, which did not include listing description NLP or image features. 
+> Our final model utilizes a wide combination of continuous variables, one-hot-encoded categoricals, extracted image features, and extracted word embeddings to produce an ensembled model with a mean absolute error of 56.4k and a root mean squared error of 94.8k. This MAE is a huge 8.59% improvement over the 61.7k MAE baseline prediction using a single best tuned model, which did not include listing description language processing or image features.
+
 > The categorical features were processed with a combination of target encoding and one-hot encoding. The text description features were vector embedded using the pre-trained Stanford GloVe 300d word embeddings NLP model. The images were processed using the pre-trained Google InceptionV3 image classification model. The final model was produced using model ensembling which included a mixture of neural networks, standard models, and image/text extracted features from the aforementioned pre-trained GloVe and InceptionV3 models.
 
 ![map of model ensembling](images/stack_map.png)
