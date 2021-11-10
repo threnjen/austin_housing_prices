@@ -18,7 +18,7 @@ By: Jen Wadkins
 * NLP with TF-IDF
 * Model Selection and Tuning
 * Neural Network Architecture with Keras and Tensorflow
-* NLP Transfer Learning with Standford GloVe
+* NLP Transfer Learning with Stanford GloVe
 * Image Transfer Learning with Google InceptionV3
 * Model Ensembling
 
