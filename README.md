@@ -116,6 +116,8 @@ We use the OSEMN for Data Science to organize the project.
 ##### What are the features missing?
 > I believe this data set to be missing some key features that have high influence in other housing sets, foremost among them reasonable metrics of home condition, home quality, and neighborhood quality. Other data sets that focus on home prices and include quality of build materials and home condition (see [King County Dataset](https://www.kaggle.com/harlfoxem/housesalesprediction)) can achieve a higher R^2 and lower MAE. We attempted to pick up some of the quality and condition metrics via NLP. While the NLP did contribute to the model, it was insufficient to explain all of these missing metrics.
 
+> We'd also benefit greatly from the addition of google satellite images of the property and surrounding neighborhood. This would provide a great visual of the "green" spaces and walkability of a property.
+
 
 ## Future Work
 
@@ -134,4 +136,4 @@ We use the OSEMN for Data Science to organize the project.
 ## Presentation
 [Video - Data Science Module 4 Project]()
 
-[PDF of Presentation]()
+[PDF of Presentation](https://github.com/threnjen/austin_housing_prices/blob/main/mod_4_pdf/Austin_Housing_Study.pdf)
